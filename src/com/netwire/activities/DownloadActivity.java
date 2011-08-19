@@ -32,6 +32,8 @@ public class DownloadActivity extends Activity{
         layout.invalidateViews();
         displayFilesFromDownloadFolder();
         layout.setAdapter(new FileAdapter(this, viewStack));
+
+//test
     }
 	
 	@Override
